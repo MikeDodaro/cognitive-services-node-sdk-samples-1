@@ -39,13 +39,13 @@ This project framework provides examples for the following services:
 1. Set the following environment variables using the information from the service principle that you created. From the commandline in cognitive-services-node-sdk-samples, run the following commands. You only need to set the environment variables for which you want to run the samples. 
 
     ```
-    set AZURE_ENTITY_SEARCH_KEY={your service key}
-    set AZURE_WEB_SEARCH_KEY={your service key}
-    set AZURE_VIDEO_SEARCH_KEY={your service key}
-    set AZURE_NEWS_SEARCH_KEY={your service key}
-    set AZURE_IMAGE_SEARCH_KEY={your service key}
-    set AZURE_CUSTOM_SEARCH_KEY={your service key}
-    set AZURE_SPELL_CHECK_KEY={your service key}
+    export AZURE_ENTITY_SEARCH_KEY={your service key}
+    export AZURE_WEB_SEARCH_KEY={your service key}
+    export AZURE_VIDEO_SEARCH_KEY={your service key}
+    export AZURE_NEWS_SEARCH_KEY={your service key}
+    export AZURE_IMAGE_SEARCH_KEY={your service key}
+    export AZURE_CUSTOM_SEARCH_KEY={your service key}
+    export AZURE_SPELL_CHECK_KEY={your service key}
     ```
 
     > [AZURE.NOTE] On Windows, use `set` instead of `export`.
