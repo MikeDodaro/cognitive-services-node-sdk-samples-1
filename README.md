@@ -29,7 +29,11 @@ This project framework provides examples for the following services:
 ## Run this sample
 
 
+<<<<<<< HEAD
 1. If you don't already have it, [get node.js](https://nodejs.org). Install a version greater than 8.0.
+=======
+1. If you don't already have it, [get node.js](https://nodejs.org).  Install a version greater than 8.0.
+>>>>>>> 57f72dc7101a1c2d52b68c247fe3ce0d8f08a61d
 
 1. Clone the repository.
 
@@ -46,7 +50,7 @@ This project framework provides examples for the following services:
 
 1. Get a cognitive services API key with which to authenticate the SDK's calls. [Sign up here](https://azure.microsoft.com/en-us/services/cognitive-services/directory/) by navigating to the right service and acquiring an API key. You can get a trial key for **free** which will expire after 30 days.
 
-1. Set the following environment variables using the information from the service principle that you created. You only need to set the environment variables for which you want to run the samples.
+1. Set the following environment variables using the information from the service principle that you created. From the commandline in cognitive-services-node-sdk-samples, run the following commands. You only need to set the environment variables for which you want to run the samples. 
 
     ```
     export AZURE_ENTITY_SEARCH_KEY={your service key}
@@ -70,6 +74,6 @@ This project framework provides examples for the following services:
     node index.js
     ```
 
-1. Navigate through the console app to play with the examples. If a sample ends prematurely and does not return results, please make sure the service-key being used is valid for that service.
+1. Navigate through the console app to play with the examples. Commands are case sensitive. If a sample ends prematurely and does not return results, please make sure the service-key being used is valid for that service.
 
 To see the code of each example, simply look at the examples in the Samples folder. They are written to be isolated in scope so that you can see only what you're interested in.
